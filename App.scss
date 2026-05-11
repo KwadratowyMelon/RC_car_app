@@ -1,0 +1,149 @@
+.container {
+  flex: 1;
+  background-color: #121212;
+}
+
+.header {
+  align-items: center;
+  padding-top: 40px; /* Give some safe area spacing at the top */
+  z-index: 50;
+  elevation: 50;
+}
+
+.controlsWrapper {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.statusText {
+  color: #00ff00;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.toggleContainer {
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 30px;
+  background-color: #1e1e1e;
+  padding: 15px;
+  border-radius: 20px;
+  elevation: 50; /* High elevation for Android z-index */
+  z-index: 50; /* High z-index for iOS */
+  shadow-color: #000;
+  shadow-offset: 0px 2px;
+  shadow-opacity: 0.5;
+  shadow-radius: 4px;
+}
+
+.toggleText {
+  color: #fff;
+  margin-horizontal: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.row {
+  flex-direction: row;
+  width: 200px;
+  justify-content: space-between;
+  margin-vertical: 10px;
+}
+
+.dpad {
+  align-items: center;
+}
+
+.btn {
+  background-color: #333;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  elevation: 5;
+  shadow-color: #000;
+  shadow-offset: 0px 2px;
+  shadow-opacity: 0.8;
+  shadow-radius: 3px;
+  border-width: 2px;
+  border-color: #444;
+}
+
+.btnText {
+  color: #fff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.joystickContainer {
+  margin-top: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.joystickBase {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  background-color: #1e1e1e;
+  justify-content: center;
+  align-items: center;
+  border-width: 4px;
+  border-color: #333;
+  elevation: 10;
+  shadow-color: #000;
+  shadow-offset: 0px 5px;
+  shadow-opacity: 0.8;
+  shadow-radius: 10px;
+}
+
+.joystickKnob {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #4caf50;
+  border-width: 2px;
+  border-color: #2e7d32;
+  elevation: 5;
+  shadow-color: #4caf50;
+  shadow-offset: 0px 0px;
+  shadow-opacity: 0.8;
+  shadow-radius: 10px;
+}
+
+.toggleBtn {
+  padding-horizontal: 12px;
+  padding-vertical: 8px;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.toggleBtnActive {
+  background-color: #333;
+}
+
+.toggleTextActive {
+  color: #4caf50;
+}
+
+.dualContainer {
+  transform: rotate(90deg);
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dualJoystickWrapper {
+  align-items: center;
+  justify-content: center;
+}
+
+.dualJoystickLabel {
+  color: #888;
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
